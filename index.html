@@ -3,24 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Hotel</title>
 </head>
 
 <body>
-    <div class="banner">
-        <div class="navbar">
-            <img src="img/logo.png" alt="hotel-logo" class="logo" width="100px" height="50px">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Bedroom</a></li>
-                <li><a href="#">Dining</a></li>
-                <li><a href="#">Kitchen</a></li>
-                <li><a href="#">Backyard</a></li>
-            </ul>
+    <!-- start header section  -->
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt="logo" width="70px" height="70px"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu">Menu</a>
+            <a href="#team">Team</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#blog">Blog</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu"></i>
+            <i class="fas fa-search"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+
+        </div>
+    </header>
+    <!-- end of header section  -->
+
+    <!-- slider section start  -->
+    <div class="home" id="home">
+        <div class="home-slider">
+            <div class="wrapper">
+                <div class="slide slide1">
+                    <div class="content">
+                        <img src="img/Website-Media-Files/navbar/crown-symbol.png" alt="">
+                        <h3>Delicious Royate</h3>
+                        <h1>gift voucher</h1>
+                        <p>give way your beloved customers</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="slide slide2">
+                    <div class="content">
+                        <img src="img/Website-Media-Files/navbar/crown-symbol.png" alt="">
+                        <h3>sale of 10% this dish</h3>
+                        <h1>the frech</h1>
+                        <p>food restaurant</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="slide slide3">
+                    <div class="content">
+                        <img src="img/Website-Media-Files/navbar/crown-symbol.png" alt="">
+                        <h3>we are open</h3>
+                        <h1>fresh fruits</h1>
+                        <p>you will love it</p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- slider section end  -->
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
